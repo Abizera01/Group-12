@@ -1,11 +1,11 @@
 Laravel Blog System
 A simple blog system built using Laravel from scratch . This system allows users to create, read, update, and delete blog posts, and manage blog categories and authors.
-📁 Project Structure
+ Project Structure
 This Laravel-based blog project uses a MySQL database and includes the following main features:
 - Blog post management (CRUD)
 - Category management
 - Author management
-🧾 Database Overview
+  Database Overview
 The database is named: blog_system1
 Tables
 authors
@@ -30,7 +30,7 @@ posts
 - created_at (TIMESTAMP)
 - updated_at (TIMESTAMP)
 Note: Foreign key relationships are assumed based on column naming conventions.
-🛠 Setup Instructions
+   Setup Instructions
 1. Clone the Repository
    git clone https://github.com/yourusername/laravel-blog-system.git
    cd laravel-blog-system
@@ -52,23 +52,23 @@ Then, configure your .env file:
    php artisan migrate
 7. Start the Server
    php artisan serve
-🔐 Authentication
+ Authentication
 The project uses a custom-built authentication system (without Breeze). You will find:
 - Custom login and registration forms
 - Middleware protection for routes
-📄 Features
+   Features
 - Full CRUD for blog posts
 - Categorization of posts
 - Simple author/user management
 - Timestamps for post tracking
 - Secure login system
-📦 Tech Stack
+   Tech Stack
 - PHP 8+
 - Laravel 10+
 - MySQL
 - Blade Templating
 - HTML/CSS/JavaScript
-📸 credentials
+   credentials
 Users_login_credentials
 •	Philemon
 Email:philemon000@gmail.com
@@ -77,7 +77,3 @@ Password:12345678
 Email:chris21@gmail.com
 Password:12345678
 
-🤝 Contributing
-Contributions are welcome! Fork the repository and submit a pull request.
-📃 License
-This project is open-source and available under the MIT License.
